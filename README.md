@@ -1,2 +1,4 @@
 # tunica
 Codes for simulating attacks on Tor Onion (hidden) services.
+
+Abstract: We propose Tunica, a family of protocols that leverage private information retrieval (PIR) to mitigate the risks posed by most known attacks on Tor's onion services (aka hidden services) architecture. Tunica protocols prevent so-called hidden service directories (HSDirs) from distinguishing among requests for different onion descriptors, thereby frustrating attempts to construct popularity histograms over those descriptors and outright thwarting certain intersection-style attacks against the sender anonymity of users that access onion services. We present two concrete Tunica constructions, based respectively on 2-server PIR from distributed point functions and on 1-server PIR from lattice assumptions. Experimental evidence obtained from our proof-of-concept implementations suggests that both constructions are sufficiently performant for real-world deployment.
